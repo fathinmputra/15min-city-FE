@@ -1,1 +1,1 @@
-# 15min-city-FE Project
+# 15min-city-FE
