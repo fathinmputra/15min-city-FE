@@ -1,0 +1,40 @@
+{
+  "name": "nextjs13-sidebar-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "rm -rf .next/cache",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "engines": {
+    "node": "20.11.1",
+    "npm": "10.2.4"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.0.0",
+    "axios": "^1.7.0",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "leaflet-routing-machine": "^3.2.12",
+    "lodash.debounce": "^4.0.8",
+    "next": "^13.2.4",
+    "openrouteservice-js": "^0.3.2",
+    "papaparse": "^5.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.12.0",
+    "react-joyride": "^2.8.2",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}

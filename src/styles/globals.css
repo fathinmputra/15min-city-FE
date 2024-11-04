@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this CSS to your global styles or a relevant CSS file */
+.leaflet-routing-container {
+    display: none;
+  }
+  
